@@ -20,7 +20,11 @@ app.get('/', (req, res) => {
             });
         }
     })
- 
+});
+
+app.get('/test', (req, res) => {
+    
+    res.send('Hello World Testing API');
 });
 
 app.listen(3000, () => {
