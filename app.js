@@ -27,6 +27,10 @@ app.get('/test', (req, res) => {
     res.send('Hello World Testing API');
 });
 
+app.get('/test1', (req, res) => {
+    res.send('Kya baat hai');
+});
+
 app.listen(3000, () => {
     console.log('Server is running on port 3000');
 })
